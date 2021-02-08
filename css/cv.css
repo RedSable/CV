@@ -1,0 +1,273 @@
+body {
+	/* font-family: raleway; */
+	font-family:"Open Sans", sans-serif;
+}
+
+.page {
+	padding-left: 1.5cm;
+	padding-right: 1.5cm;
+}
+
+.content {
+	width: 63%;
+	float: left;
+	min-height: 1px;
+	margin-left: 10px;
+}
+
+.block {
+	margin-bottom: 24px;
+}
+
+.block-header {
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	margin-bottom: 16px;
+}
+
+li {
+	list-style-position: inside;
+	margin-left: 15px;
+	font-weight: bold;
+}
+
+.block-header-icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.block-header-title {
+	color: #37474f;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	vertical-align: top;
+	padding: 5px 0;
+	line-height: 1;
+}
+
+.block-multi-content {
+	margin-left: 0px;
+	display: table;
+	width: 110%;
+}
+
+.block-content {
+	font-size: 16px;
+	margin-left: 35px;
+}
+
+.block-content-row {
+	margin-bottom: 18px;
+}
+
+.block-content-row-header-icon {
+	display: inline-block;
+	/* position: relative; */
+	width: 18px;
+	height: 18px;
+	margin-left: 5px;
+}
+
+.block-content-row-header {
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.block-content-row-header-date {
+	float: right;
+	text-align: right;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 2px;
+	text-decoration: underline;
+}
+
+.block-content-row-body {
+	margin-left: 35px;
+	font-size: 14px;
+}
+
+.list {
+	margin-left:0;
+}
+
+.skill-list {
+	width: 50%;
+	font-weight: normal;
+	text-decoration: none;
+	margin-right: 0;
+	display: inline-block;
+	vertical-align: top;
+
+	/* display: table-cell; */
+}
+
+.skill-list-item {
+	font-weight: normal;
+	text-transform: none;
+	width:max-content;
+	max-width: 100%;
+	display: table-cell;
+
+}
+
+.progress-bar {
+	background-color: lightgrey;
+	width: 80%;
+	margin-left: 0;
+	margin-top: 5px;
+	border-radius: 5px;
+	/* display: table-row; */
+}
+
+.skill-progress {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.lang { width: 45%; background-color:#37474f;
+	border-radius: 5px;
+}
+
+.algos { width: 40%; background-color:#37474f;
+	border-radius: 5px;
+}
+.clang { width: 60%; background-color:#37474f;
+	border-radius: 5px; }
+.cpp { width: 20%; background-color:#37474f;
+	border-radius: 5px; }
+.graphics { width: 40%; background-color:#37474f;
+	border-radius: 5px; }
+.python { width: 20%; background-color:#37474f;
+	border-radius: 5px; }
+.unix { width: 50%; background-color:#37474f;
+	border-radius: 5px; }
+.git { width: 60%; background-color:#37474f;
+	border-radius: 5px; }
+.web { width: 30%; background-color:#37474f;
+	border-radius: 5px; }
+
+.sidebar {
+	float: left;
+	width: 35%;
+	min-height: 1px;
+}
+
+.who {
+	margin-bottom: 32px;
+}
+.avatar {
+	margin-bottom: 26px;
+}
+.avatar_img {
+	border-radius: 50%;
+	width: 40%;
+	position: relative;
+}
+
+.name {
+	position: relative;
+	color: #37474f;
+}
+
+.first_name {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.last_name {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.sidebar .block {
+	margin-bottom: 24px;
+}
+
+.sidebar .block-header {
+	margin-bottom: 13px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+.sidebar .block-header-title {
+	color: #37474f;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px 0;
+	line-height: 1;
+	vertical-align: top;
+}
+
+.sidebar .block-header-icon {
+	display: inline-block;
+	/* position: relative; */
+
+	width: 30px;
+	height: 30px;
+}
+
+.sidebar .block-content {
+	margin-left: 35px;
+}
+.sidebar .block-content-row {
+	margin-bottom: 5px;
+}
+
+.sidebar .block-content-row-header-icon {
+	margin-left: 7px;
+}
+
+.sidebar .block-content-row-header {
+	text-transform: none;
+}
+
+.sidebar a {
+	vertical-align: top;
+	margin-left: 6px;
+	line-height: 1;
+	display: inline-block;
+	padding: 3px 0;
+}
+
+.sidebar li {
+	margin-left: 15px;
+}
+
+.sidebar .list {
+	margin-left: 0px;
+}
+
+.sidebar .progress-bar {
+	margin-left: 35px;
+	width:75%;
+}
+
+.main-ico {
+	width: 100%;
+	height: 100%;
+}
+
+.small-ico {
+	width: 100%;
+	height: 100%;
+}
+
+hr {
+	color: black;
+	background-color: black;
+	border-width: 0px;
+	min-height: 2px;
+	margin:0;
+	width: 90%;
+}
+
+.content hr {
+	width: 100%;
+}
